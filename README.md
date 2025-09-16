@@ -16,9 +16,9 @@ A simple Blog Application built with Django, featuring user authentication (sign
 myblog_project/</br>
 │
 ├── blog/                      # Main Django app</br>
-│   ├── migrations/
-│   ├── templates/
-│   │   ├── blog/              # Post templates</br>
+│   ├── migrations/</br>
+│   ├── templates/</br>
+│   │   ├── blog/     </br>         # Post templates</br>
 │   │   └── registration/      # Auth templates</br>
 │   ├── models.py              # Database models</br>
 │   ├── views.py               # Application logic</br>
