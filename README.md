@@ -19,7 +19,7 @@ myblog_project/</br>
 │   ├── migrations/</br>
 │   ├── templates/</br>
 │   │   ├── blog/     </br>         # Post templates</br>
-│   │   └── registration/      # Auth templates</br>
+│   │   └── registration/  </br>    # Auth templates</br>
 │   ├── models.py              # Database models</br>
 │   ├── views.py               # Application logic</br>
 │   ├── urls.py                # App routes</br>
