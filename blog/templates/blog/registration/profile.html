@@ -1,0 +1,11 @@
+{% extends "blog/base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<h2>Welcome, {{ user.username }} 👋</h2>
+<p>Email: {{ user.email }}</p>
+
+<a href="{% url 'post_list' %}" class="btn btn-primary">Go to Blog</a>
+<a href="{% url 'logout' %}" class="btn btn-danger">Logout</a>
+{% endblock %}
